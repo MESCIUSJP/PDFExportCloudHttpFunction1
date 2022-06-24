@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDFExportCloudHttpFunction1", "PDFExportCloudHttpFunction1\PDFExportCloudHttpFunction1.csproj", "{D91C4182-2F93-4DB7-9EE6-03B22ACCE0BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D91C4182-2F93-4DB7-9EE6-03B22ACCE0BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D91C4182-2F93-4DB7-9EE6-03B22ACCE0BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D91C4182-2F93-4DB7-9EE6-03B22ACCE0BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D91C4182-2F93-4DB7-9EE6-03B22ACCE0BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4639AD6F-E970-4FC8-9C56-D4BF88D58E11}
+	EndGlobalSection
+EndGlobal
