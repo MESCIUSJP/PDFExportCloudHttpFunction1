@@ -26,7 +26,7 @@ namespace PDFExportCloudHttpFunction1
 
             //GcPdfDocument.SetLicenseKey("");
 
-            GcPdfDocument doc = new GcPdfDocument();
+            GcPdfDocument doc = new();
             GcPdfGraphics g = doc.NewPage().Graphics;
 
             g.DrawString(Message,
@@ -35,7 +35,7 @@ namespace PDFExportCloudHttpFunction1
 
             byte[] output;
 
-            using (var ms = new MemoryStream())
+            using (MemoryStream ms = new())
             {
                 doc.Save(ms, false);
                 output = ms.ToArray();
